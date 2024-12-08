@@ -43,6 +43,8 @@ aside.global-side-nav(:class='{ hidden: !sideNavStore.isOpened }')
         ul
           ListLink(externalLink='https://www.pixiv.net/' text='Pixiv.net')
             IFasExternalLinkAlt.link-icon
+          ListLink(externalLink='https://pixez.hanze.icu/' text='PixEZ')
+            IFasExternalLinkAlt.link-icon
           ListLink(link='/about' text='关于我们')
             IFasHeart.link-icon
 </template>
