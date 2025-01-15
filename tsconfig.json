@@ -30,7 +30,7 @@
     "auto-imports.d.ts",
     "components.d.ts",
     "middware.ts"
-  ],
+, "src/components/SiteNoticeBanner.vue"  ],
   "exclude": ["**/dist"],
   "vueCompilerOptions": {
     "plugins": ["@vue/language-plugin-pug"]
