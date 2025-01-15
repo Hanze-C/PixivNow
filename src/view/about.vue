@@ -71,6 +71,15 @@ mixin repoLink
       p
         | 我们是开源项目，欢迎给我们点星星或者提交 PR 以及 issue：
         +repoLink
+    Card(title='赞助我们')
+      .align-center
+        iframe(
+          frameborder='0'
+          height='200'
+          scrolling='no'
+          src='https://afdian.com/leaflet?slug=dragon-fish'
+          width='640'
+        )
 </template>
 
 <script lang="ts" setup>
