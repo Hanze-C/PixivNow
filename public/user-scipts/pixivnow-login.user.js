@@ -11,7 +11,7 @@
 // @grant        GM_registerMenuCommand
 // ==/UserScript==
 
-;(function () {
+; (function () {
   'use strict'
 
   const DEFAULT_HOST = 'https://pixiv.js.org'

@@ -77,9 +77,11 @@ async function firstInit() {
 .flex {
   display: flex;
 }
+
 .justify-center {
   justify-content: center;
 }
+
 .align-center {
   align-items: center;
 }

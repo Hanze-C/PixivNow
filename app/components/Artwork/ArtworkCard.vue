@@ -106,7 +106,6 @@ async function handleBookmark() {
 </script>
 
 <style lang="scss">
-
 .artwork-image {
   position: relative;
   overflow: hidden;
@@ -153,13 +152,16 @@ async function handleBookmark() {
     color: inherit;
     cursor: pointer;
     border-radius: var(--fnb-radius-sm);
+
     &:hover {
       background-color: rgba(255, 100, 100, 0.2);
     }
+
     &:focus-visible {
       outline: 2px solid var(--fnb-brand);
       outline-offset: 2px;
     }
+
     &.disabled {
       opacity: 0.7;
       pointer-events: none;
@@ -196,12 +198,15 @@ async function handleBookmark() {
     &::before {
       background-color: rgba(0, 0, 0, 0.2);
     }
+
     img {
       transform: scale(1.2);
     }
+
     .hover-title {
       opacity: 1;
     }
+
     .type-ugoira {
       opacity: 0;
       transform: translate(-50%, -50%) scale(1.5);
@@ -212,12 +217,12 @@ async function handleBookmark() {
     cursor: default;
     box-shadow: 0 0 0 2px var(--fnb-divider);
 
-    & + .cover {
+    &+.cover {
       background-color: rgba(100, 100, 100, 0.6) !important;
     }
   }
 
-  .side-tags > * {
+  .side-tags>* {
     position: absolute;
     z-index: 10;
   }
@@ -250,11 +255,13 @@ async function handleBookmark() {
     align-items: center;
     justify-content: center;
   }
+
   .x-restrict {
     top: .4rem;
     left: .4rem;
     background-color: var(--pixiv-r18-badge);
   }
+
   .ai-restrict {
     bottom: .4rem;
     left: .4rem;
@@ -274,6 +281,7 @@ async function handleBookmark() {
 }
 
 .artwork-info {
+
   .title,
   .author {
     white-space: nowrap;

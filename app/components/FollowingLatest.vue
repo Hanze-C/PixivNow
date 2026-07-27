@@ -83,7 +83,7 @@ defineProps<{
     padding-right: 1rem;
   }
 
-  & + .following-item {
+  &+.following-item {
     border-top: 1px solid var(--fnb-border);
   }
 }

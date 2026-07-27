@@ -13,8 +13,8 @@ i.fnb-icon(aria-hidden='true')
   height: 1em;
   color: inherit;
 
-  > svg,
-  > img {
+  >svg,
+  >img {
     width: 1em;
     height: 1em;
     color: inherit;
@@ -23,7 +23,7 @@ i.fnb-icon(aria-hidden='true')
   }
 
   // tabler icons use stroke, not fill
-  > .tabler-icon {
+  >.tabler-icon {
     fill: none;
   }
 }

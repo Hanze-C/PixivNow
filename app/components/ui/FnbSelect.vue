@@ -133,6 +133,7 @@ onClickOutside(selectRef, () => {
 .fnb-select-arrow {
   font-size: 0.6rem;
   transition: transform 0.2s;
+
   &.flipped {
     transform: rotate(180deg);
   }
@@ -176,6 +177,7 @@ onClickOutside(selectRef, () => {
 .fnb-select-dropdown-leave-active {
   transition: all 0.15s ease;
 }
+
 .fnb-select-dropdown-enter-from,
 .fnb-select-dropdown-leave-to {
   opacity: 0;

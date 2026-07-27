@@ -62,14 +62,14 @@ const props = defineProps<{
   title?: string
   description?: string
   status?:
-    | 'warning'
-    | '500'
-    | 'error'
-    | 'info'
-    | 'success'
-    | '404'
-    | '403'
-    | '418'
+  | 'warning'
+  | '500'
+  | 'error'
+  | 'info'
+  | 'success'
+  | '404'
+  | '403'
+  | '418'
 }>()
 const msg = ref('')
 function randomMsg(): void {
@@ -99,7 +99,7 @@ onMounted(() => {
   align-items: center;
   flex-wrap: wrap;
 
-  > div {
+  >div {
     width: 100%;
   }
 }
@@ -109,7 +109,7 @@ onMounted(() => {
   font-weight: bold;
   margin-bottom: 0.4em;
 
-  > span {
+  >span {
     box-shadow: 0 -0.5em 0 var(--fnb-brand) inset;
     padding: 0 0.4em;
   }

@@ -77,6 +77,7 @@ async function handleUserFollow() {
 .follow-user-inner {
   display: flex;
   gap: 1rem;
+
   @media (max-width: 860px) {
     flex-direction: column;
     gap: 0.25rem;
@@ -85,6 +86,7 @@ async function handleUserFollow() {
 
 .left {
   margin-right: 1rem;
+
   img {
     border-radius: var(--fnb-radius-sm);
     @include fnb-border-sm;
@@ -95,7 +97,8 @@ async function handleUserFollow() {
 
 .right {
   flex: 1;
-  > div:not(:first-of-type) {
+
+  >div:not(:first-of-type) {
     margin-top: 1rem;
   }
 }

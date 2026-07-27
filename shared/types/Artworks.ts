@@ -69,8 +69,8 @@ export interface ArtworkInfo extends ArtworkCommon {
 export type ArtworkInfoOrAd =
   | ArtworkInfo
   | {
-      isAdContainer: true
-    }
+    isAdContainer: true
+  }
 
 export enum IllustType {
   ILLUST = 0,
@@ -104,18 +104,18 @@ export interface ArtworkRank {
     yuri: boolean
   }
   illust_series:
-    | {
-        illustSeriesId: `${number}`
-        illustSeriesUserId: `${number}`
-        illustSeriesTitle: string
-        illustSeriesCaption: string
-        illustSeriesContentCount: `${number}`
-        illustSeriesCreateDatetime: string
-        illustSeriesContentIllustId: `${number}`
-        illustSeriesContentOrder: `${number}`
-        pageUrl: string
-      }
-    | false
+  | {
+    illustSeriesId: `${number}`
+    illustSeriesUserId: `${number}`
+    illustSeriesTitle: string
+    illustSeriesCaption: string
+    illustSeriesContentCount: `${number}`
+    illustSeriesCreateDatetime: string
+    illustSeriesContentIllustId: `${number}`
+    illustSeriesContentOrder: `${number}`
+    pageUrl: string
+  }
+  | false
   illust_id: number
   width: number
   height: number

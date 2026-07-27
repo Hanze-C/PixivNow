@@ -262,6 +262,7 @@ onBeforeUnmount(() => {
   max-height: 60vh;
   width: auto;
   height: auto;
+
   &:hover {
     box-shadow: var(--fnb-shadow);
   }
@@ -309,7 +310,12 @@ onBeforeUnmount(() => {
 }
 
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 </style>

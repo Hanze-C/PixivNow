@@ -1,20 +1,7 @@
 <template>
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    version="1.1"
-    class="svgspinner"
-    width="400"
-    height="300"
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svgspinner" width="400" height="300">
     <g class="spingroup" transform="matrix(1,0,0,1,200,150)">
-      <circle
-        class="spincircle"
-        r="36"
-        stroke-width="5"
-        stroke="#3697e7"
-        fill="none"
-        stroke-linecap="round"
-      />
+      <circle class="spincircle" r="36" stroke-width="5" stroke="#3697e7" fill="none" stroke-linecap="round" />
     </g>
   </svg>
 </template>

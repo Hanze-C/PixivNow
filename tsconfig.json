@@ -22,6 +22,8 @@
     "jsx": "preserve"
   },
   "vueCompilerOptions": {
-    "plugins": ["@vue/language-plugin-pug"]
+    "plugins": [
+      "@vue/language-plugin-pug"
+    ]
   }
 }

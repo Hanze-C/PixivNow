@@ -169,8 +169,7 @@ export async function pixivFetch(
     console.info(
       colors.green(`[SEND ${response.status}] >`),
       colors.cyan(url.pathname),
-      `\n${colors.yellow(typeof data)} ${
-        out.length >= 200 ? out.slice(0, 200).trim() + '\n...' : out
+      `\n${colors.yellow(typeof data)} ${out.length >= 200 ? out.slice(0, 200).trim() + '\n...' : out
       }`
     )
   }

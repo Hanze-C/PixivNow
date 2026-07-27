@@ -75,15 +75,18 @@ h3 {
 
 .top {
   position: relative;
+
   a {
     display: block;
   }
+
   .thumb {
     border-radius: var(--fnb-radius) var(--fnb-radius) 0 0;
     overflow: hidden;
     position: relative;
     width: 100%;
     animation: imgProgress 0.6s ease infinite alternate;
+
     .image {
       position: absolute;
       top: 0;
@@ -103,6 +106,7 @@ h3 {
     padding: 0.1rem 0.4rem;
     font-size: 0.7rem;
     border-radius: var(--fnb-radius-sm);
+
     [data-icon] {
       margin-right: 0.15rem;
     }
@@ -119,11 +123,13 @@ h3 {
     align-items: center;
     justify-content: center;
   }
+
   .x-restrict {
     top: 0.4rem;
     left: 0.4rem;
     background-color: var(--pixiv-r18-badge);
   }
+
   .ai-restrict {
     bottom: 0.4rem;
     left: 0.4rem;
@@ -145,14 +151,17 @@ h3 {
     height: 1.8rem;
     text-align: center;
     line-height: 1.7;
+
     &.gold {
       background-color: var(--fnb-highlight);
       color: var(--fnb-on-light);
     }
+
     &.silver {
       background-color: var(--fnb-silver);
       color: var(--fnb-on-light);
     }
+
     &.bronze {
       background-color: var(--fnb-bronze);
       color: var(--fnb-on-light);
@@ -166,6 +175,7 @@ h3 {
     height: 100%;
     left: 0;
     top: 0;
+
     svg {
       position: absolute;
       bottom: 50%;
@@ -181,9 +191,11 @@ h3 {
 
 .bottom {
   padding: 0.5rem;
+
   .title a {
     display: inline;
   }
+
   .author a {
     display: inline-flex;
   }
@@ -198,11 +210,13 @@ h3 {
 
     a {
       align-items: center;
+
       &.router-link-active {
         color: var(--fnb-text);
         font-weight: 600;
         font-style: normal;
         cursor: default;
+
         &::after {
           visibility: hidden;
         }
@@ -222,6 +236,7 @@ h3 {
   .author {
     margin: 0.4rem 0;
   }
+
   .tags {
     overflow-x: auto;
     white-space: nowrap;

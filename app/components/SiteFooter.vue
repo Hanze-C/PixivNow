@@ -26,7 +26,10 @@ footer.global-footer
     //-     p Placeholder
     section.flex-1
       h4 友情链接
-      div 快来 GitHub issues 交换友链吧~
+      ul
+        li
+          | 新版UI不好看？
+          ExternalLink(:href='`https://pixivpast.hanze.eu.org`') 使用PixivNow V4.0旧版
       //- ul
       //-   li 链接
 
@@ -50,7 +53,6 @@ const yearStr = ref(`2021 - ${new Date().getFullYear()}`)
 </script>
 
 <style scoped lang="scss">
-
 .global-footer {
   background-color: var(--fnb-surface);
   font-size: 1rem;

@@ -31,7 +31,7 @@ const spinnerSize = computed(() => {
   position: relative;
 }
 
-.fnb-spin--active > :not(.fnb-spin__overlay) {
+.fnb-spin--active> :not(.fnb-spin__overlay) {
   opacity: 0.4;
   pointer-events: none;
 }

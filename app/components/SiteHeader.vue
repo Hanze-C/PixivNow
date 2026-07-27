@@ -155,7 +155,6 @@ useEventListener(window, 'scroll', () => {
 </script>
 
 <style lang="scss">
-
 .global-navbar {
   background-color: var(--fnb-brand);
   padding: 0.4rem 1rem;
@@ -195,7 +194,8 @@ useEventListener(window, 'scroll', () => {
     align-items: center;
     justify-content: center;
 
-    &:hover, &.is-active {
+    &:hover,
+    &.is-active {
       background-color: var(--fnb-highlight);
       color: var(--fnb-on-light);
     }
@@ -211,6 +211,7 @@ useEventListener(window, 'scroll', () => {
       display: block;
       line-height: 0;
     }
+
     .site-logo {
       height: 2.6rem;
       width: auto;
@@ -329,7 +330,7 @@ useEventListener(window, 'scroll', () => {
           @include fnb-border;
           @include fnb-shadow;
 
-          li > * {
+          li>* {
             padding: 0.5rem;
           }
 
@@ -430,7 +431,8 @@ useEventListener(window, 'scroll', () => {
       pointer-events: none;
     }
 
-    &.not-at-top, &.side-nav-opened {
+    &.not-at-top,
+    &.side-nav-opened {
       background-color: var(--fnb-brand);
       border-bottom-color: var(--fnb-border);
 

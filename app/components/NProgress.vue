@@ -15,11 +15,11 @@ onMounted(() => {
 </script>
 
 <style lang="scss">
-
 #nprogress {
   .bar {
     background-color: var(--fnb-accent);
     top: 63px;
+
     .peg {
       display: none;
     }

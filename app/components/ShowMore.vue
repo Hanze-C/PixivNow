@@ -28,7 +28,6 @@ useIntersectionObserver(elRef, async ([{ isIntersecting }]) => {
 </script>
 
 <style scoped lang="scss">
-
 .show-more {
   text-align: center;
 

@@ -37,7 +37,6 @@ function makeSearch(): void {
 </script>
 
 <style lang="scss">
-
 // Search Box
 .search-box {
   display: flex;
@@ -73,8 +72,8 @@ function makeSearch(): void {
       color: var(--fnb-text);
     }
 
-    &:focus + .icon,
-    &:focus + [data-icon] {
+    &:focus+.icon,
+    &:focus+[data-icon] {
       color: var(--fnb-text);
     }
   }

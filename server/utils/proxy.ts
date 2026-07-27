@@ -102,7 +102,7 @@ async function previewStream(
         total += value.byteLength
       }
     }
-    void reader.cancel().catch(() => {})
+    void reader.cancel().catch(() => { })
     const merged = new Uint8Array(total)
     let off = 0
     for (const c of chunks) {

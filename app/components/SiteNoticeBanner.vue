@@ -13,7 +13,7 @@ Transition(name='fade')
 </template>
 
 <script setup lang="ts">
-import {} from 'vue'
+import { } from 'vue'
 
 const config = useRuntimeConfig()
 const noticeDisabled = config.public.disableSiteNotice === 'true'
